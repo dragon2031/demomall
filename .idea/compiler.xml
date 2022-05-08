@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demomall-order" />
+        <module name="demomall-product" />
+        <module name="demomall-ware" />
+        <module name="demomall-member" />
+        <module name="demomall-coupon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="demomall" target="1.5" />
+      <module name="demomall-coupon" target="11" />
+      <module name="demomall-member" target="11" />
+      <module name="demomall-order" target="11" />
+      <module name="demomall-product" target="11" />
+      <module name="demomall-ware" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
